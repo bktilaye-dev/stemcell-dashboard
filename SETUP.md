@@ -1,4 +1,4 @@
-# Stem Cell Autism Dashboard — Setup
+# StemCell Dashboard — Setup
 
 ## Requirements
 

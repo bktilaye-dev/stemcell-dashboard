@@ -23,6 +23,7 @@ function Dashboard() {
       if (filters.evidenceGrade && p.evidence.gradeLevel !== filters.evidenceGrade) return false
       if (filters.deliveryRoute && !p.deliveryRoutes.includes(filters.deliveryRoute as any)) return false
       if (filters.offersFMT && (p.offersFMT ? 'yes' : 'no') !== filters.offersFMT) return false
+      if (filters.gmpCertifiedLab && p.gmpCertifiedLab !== filters.gmpCertifiedLab) return false
       if (filters.maxCostUSD < 100000 && p.cost.minUSD > filters.maxCostUSD) return false
       if (filters.search) {
         const q = filters.search.toLowerCase()
@@ -45,7 +46,7 @@ function Dashboard() {
       {/* Header */}
       <header className="bg-white border-b border-gray-200 px-4 py-2.5 flex items-center justify-between shrink-0 gap-3">
         <div className="min-w-0">
-          <h1 className="text-base sm:text-xl font-bold text-gray-900 leading-tight truncate">Stem Cell Therapy for Autism</h1>
+          <h1 className="text-base sm:text-xl font-bold text-gray-900 leading-tight truncate">StemCell Dashboard</h1>
           <p className="text-xs text-gray-500 hidden sm:block">Global provider comparison · Human stem cells only</p>
         </div>
         <div className="flex items-center gap-2 sm:gap-4 shrink-0">

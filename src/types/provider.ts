@@ -77,6 +77,11 @@ export interface CertificateOfAuthenticity {
   notes: string
 }
 
+export type GmpLabStatus =
+  | 'yes'      // Independently verified GMP-certified production lab
+  | 'claimed'  // Clinic/partner lab claims GMP but not independently verified
+  | 'no'       // No GMP certification claimed or found
+
 export type MuseClaimStatus =
   | 'legitimate_source'   // This IS Tohoku University / Life Science Institute
   | 'licensed'            // Documented license from Tohoku / LSII confirmed
@@ -154,6 +159,7 @@ export interface Provider {
   }
 
   coa: CertificateOfAuthenticity
+  gmpCertifiedLab: GmpLabStatus
   museCellClaim?: MuseCellClaim
   procedure: ProcedureDetails
 

@@ -8,7 +8,7 @@ import {
   type SortingState,
 } from '@tanstack/react-table'
 import { useState, useMemo } from 'react'
-import type { Provider, CellType, MuseClaimStatus, MuseCellClaim } from '../types/provider'
+import type { Provider, CellType, MuseClaimStatus, MuseCellClaim, GmpLabStatus } from '../types/provider'
 import { CellTypeBadge, RouteBadge } from './CellTypeBadge'
 import { StarRating } from './StarRating'
 import { CertBadge, coaScore } from './CertBadge'
@@ -29,6 +29,12 @@ const MUSE_STATUS_CONFIG: Record<MuseClaimStatus, { label: string; bg: string; t
   licensed:          { label: 'MCI Licensed',        bg: 'bg-blue-100',   text: 'text-blue-800',   icon: '🔵' },
   claim_unverified:  { label: 'Claimed — Unconfirmed', bg: 'bg-yellow-100', text: 'text-yellow-800', icon: '⚠️' },
   no_license_found:  { label: 'No License Found',   bg: 'bg-red-100',    text: 'text-red-800',    icon: '❌' },
+}
+
+const GMP_STATUS_CONFIG: Record<GmpLabStatus, { label: string; classes: string }> = {
+  yes:     { label: 'Yes',     classes: 'bg-green-100 text-green-800 border-green-200' },
+  claimed: { label: 'Claimed', classes: 'bg-yellow-100 text-yellow-800 border-yellow-200' },
+  no:      { label: 'No',      classes: 'bg-gray-100 text-gray-500 border-gray-200' },
 }
 
 function MuseClaimCell({ claim }: { claim: MuseCellClaim | undefined }) {
@@ -76,17 +82,6 @@ interface Props {
   allProviders: Provider[]
 }
 
-function computeOverall(p: Provider): number {
-  const scores = [
-    p.effectiveness.communication.score,
-    p.effectiveness.socialSkills.score,
-    p.effectiveness.behavior.score,
-    p.effectiveness.selfCare.score,
-  ].filter((s) => s > 0)
-  if (scores.length === 0) return 0
-  return scores.reduce((a, b) => a + b, 0) / scores.length
-}
-
 export function ProviderTable({ providers, allProviders }: Props) {
   const { filters, selectedIds, toggleSelected, setActiveDetail, setCompareMode } = useDashboardStore()
   const [sorting, setSorting] = useState<SortingState>([])
@@ -98,6 +93,7 @@ export function ProviderTable({ providers, allProviders }: Props) {
       if (filters.evidenceGrade && p.evidence.gradeLevel !== filters.evidenceGrade) return false
       if (filters.deliveryRoute && !p.deliveryRoutes.includes(filters.deliveryRoute as any)) return false
       if (filters.offersFMT && (p.offersFMT ? 'yes' : 'no') !== filters.offersFMT) return false
+      if (filters.gmpCertifiedLab && p.gmpCertifiedLab !== filters.gmpCertifiedLab) return false
       if (filters.maxCostUSD < 100000 && p.cost.minUSD > filters.maxCostUSD) return false
       if (filters.search) {
         const q = filters.search.toLowerCase()
@@ -212,25 +208,6 @@ export function ProviderTable({ providers, allProviders }: Props) {
           </div>
         ),
       }),
-      col.accessor(computeOverall, {
-        id: 'effectiveness',
-        header: 'Effectiveness',
-        meta: { className: 'hidden md:table-cell' },
-        cell: ({ getValue, row }) => {
-          const score = getValue()
-          const p = row.original
-          const hasData = [p.effectiveness.communication, p.effectiveness.socialSkills, p.effectiveness.behavior, p.effectiveness.selfCare].some(d => d.score > 0)
-          return hasData ? (
-            <div className="flex items-center gap-2">
-              <div className="w-16 h-1.5 bg-gray-100 rounded-full overflow-hidden">
-                <div className="h-full bg-blue-500 rounded-full" style={{ width: `${score * 10}%` }} />
-              </div>
-              <span className="text-sm text-gray-700">{score.toFixed(1)}</span>
-            </div>
-          ) : <span className="text-xs text-gray-400">No data</span>
-        },
-        sortingFn: (a, b) => computeOverall(a.original) - computeOverall(b.original),
-      }),
       col.accessor((p) => p.testimonials.aggregateRating, {
         id: 'rating',
         header: 'Rating',
@@ -259,6 +236,19 @@ export function ProviderTable({ providers, allProviders }: Props) {
                 </div>
               )}
             </div>
+          )
+        },
+      }),
+      col.accessor((p) => p.gmpCertifiedLab, {
+        id: 'gmpCertifiedLab',
+        header: 'GMP-Certified Labs',
+        meta: { className: 'hidden md:table-cell' },
+        cell: ({ row }) => {
+          const cfg = GMP_STATUS_CONFIG[row.original.gmpCertifiedLab]
+          return (
+            <span className={`inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium border ${cfg.classes}`}>
+              {cfg.label}
+            </span>
           )
         },
       }),

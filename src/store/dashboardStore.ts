@@ -7,6 +7,7 @@ interface Filters {
   evidenceGrade: EvidenceGrade | ''
   deliveryRoute: DeliveryRoute | ''
   offersFMT: '' | 'yes' | 'no'
+  gmpCertifiedLab: '' | 'yes' | 'claimed' | 'no'
   maxCostUSD: number
   search: string
 }
@@ -31,6 +32,7 @@ const defaultFilters: Filters = {
   evidenceGrade: '',
   deliveryRoute: '',
   offersFMT: '',
+  gmpCertifiedLab: '',
   maxCostUSD: 100000,
   search: '',
 }

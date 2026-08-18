@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import type { Provider, CellType, DeliveryRoute, CellSource, EvidenceGrade, StudyDesign, CoALevel, Branch } from '../types/provider'
+import type { Provider, CellType, DeliveryRoute, CellSource, EvidenceGrade, StudyDesign, CoALevel, GmpLabStatus, Branch } from '../types/provider'
 
 const ADMIN_HASH = '8e0a14af461b56e5e37c8cc9f25a65a3b02e0a4f2b8d7c6e1f3a9b5d2c8e4f7' // sha256("noahsdad2024")
 
@@ -75,6 +75,7 @@ const emptyProvider = (): Omit<Provider, 'humanCellsOnly'> => ({
   },
   evidence: { gradeLevel: 'unrated', studyDesign: 'none', publications: [], clinicalTrials: [] },
   coa: { level: 'unknown', labCertifications: [], patientDocuments: [], independentlyVerified: false, notes: '' },
+  gmpCertifiedLab: 'no',
   procedure: { method: '', durationNotes: '' },
   testimonials: {
     aggregateRating: 0, totalReviews: 0,
@@ -514,6 +515,17 @@ function AdminForm() {
               </Field>
               <Field label="CoA Notes">
                 <Textarea value={form.coa.notes} onChange={(v) => set('coa', { ...form.coa, notes: v })} rows={2} />
+              </Field>
+              <Field label="GMP-Certified Production Lab">
+                <Select<GmpLabStatus>
+                  value={form.gmpCertifiedLab}
+                  onChange={(v) => set('gmpCertifiedLab', v)}
+                  options={[
+                    { value: 'no', label: 'No — no GMP claim or evidence found' },
+                    { value: 'claimed', label: 'Claimed — clinic/lab claims GMP but unverified' },
+                    { value: 'yes', label: 'Yes — independently verified GMP-certified lab' },
+                  ]}
+                />
               </Field>
             </div>
           </section>

@@ -61,6 +61,7 @@
       "independentlyVerified": true,
       "notes": "CL2020 is manufactured under pharmaceutical GMP standards by Life Science Institute (Mitsubishi Chemical) and regulated by Japan's PMDA. Full clinical-trial-grade documentation exists. Not commercially available for autism — research only."
     },
+    "gmpCertifiedLab": "yes",
     "museCellClaim": {
       "status": "legitimate_source",
       "licenseVerified": true,
@@ -155,6 +156,7 @@
       "independentlyVerified": true,
       "notes": "Medistem Panama lab is ISO 9001 certified and GMP-compliant with 3 ISO Class 7 clean rooms and 9 ISO Class 5 laminar flow hoods. Inspected by the Panamanian Ministry of Health and university collaborators. Highest transparency of any Latin American provider."
     },
+    "gmpCertifiedLab": "yes",
     "patientsTotal": 500,
     "autismPatientCount": 300,
     "yearsOperating": 20,
@@ -232,6 +234,7 @@
       "independentlyVerified": false,
       "notes": "R3 states cells are produced in 'first-rate GMP labs.' No independent lab certification or patient documentation details publicly available. For authorized MuseCell® products, MCI requires a Certificate of Analysis from MCI-authorized laboratories — request this specifically."
     },
+    "gmpCertifiedLab": "claimed",
     "museCellClaim": {
       "status": "licensed",
       "licenseVerified": true,
@@ -336,6 +339,7 @@
       "independentlyVerified": true,
       "notes": "Cell lab is GLP and GMP certified with ISO 9001:2015 renewed in 2018. Dr. Alok Sharma has published 79 peer-reviewed articles; NCT trial NCT01343511 registered. First institution worldwide to publish on stem cell therapy for autism — highest evidence standard of any provider listed."
     },
+    "gmpCertifiedLab": "yes",
     "patientsTotal": 800,
     "autismPatientCount": 300,
     "yearsOperating": 18,
@@ -421,6 +425,7 @@
       "independentlyVerified": true,
       "notes": "Dr. Pradeep Mahajan has peer-reviewed publications in regenerative medicine. Lab certification details not publicly documented on their website. Some independent verification via published case series."
     },
+    "gmpCertifiedLab": "no",
     "patientsTotal": 400,
     "autismPatientCount": 100,
     "yearsOperating": 12,
@@ -493,6 +498,7 @@
       "independentlyVerified": false,
       "notes": "No information found on lab certification or patient documentation practices. Contact clinic directly to request lab certification and CoA documents before committing."
     },
+    "gmpCertifiedLab": "no",
     "patientsTotal": 300,
     "autismPatientCount": 90,
     "yearsOperating": 10,
@@ -576,6 +582,7 @@
       "independentlyVerified": true,
       "notes": "Beike operates GMP-certified production labs in Shenzhen and Taizhou under NMPA (China's National Medical Products Administration) oversight. Has conducted a registered clinical trial (NCT01343511). One of the most regulated large-scale operators in Asia."
     },
+    "gmpCertifiedLab": "yes",
     "patientsTotal": 10000,
     "autismPatientCount": 800,
     "yearsOperating": 20,
@@ -648,6 +655,7 @@
       "independentlyVerified": false,
       "notes": "No public information found on lab certification. Uses autologous bone marrow — cell processing is patient-specific which simplifies chain of custody. Verify certification status directly with the clinic."
     },
+    "gmpCertifiedLab": "no",
     "patientsTotal": 600,
     "autismPatientCount": 400,
     "yearsOperating": 15,
@@ -732,6 +740,7 @@
       "independentlyVerified": false,
       "notes": "Swiss Medica references GMP-compliant manufacturing. Internal review of 461 autism patients published but not peer-reviewed. No specific patient CoA documentation described publicly. Ask clinic for lab certification letter and cell batch documentation."
     },
+    "gmpCertifiedLab": "claimed",
     "museCellClaim": {
       "status": "claim_unverified",
       "licenseVerified": false,
@@ -810,6 +819,7 @@
       "independentlyVerified": false,
       "notes": "World's first fetal stem cell clinic with 30+ years of operation. Licensed by the Ukrainian Ministry of Health. Maintains detailed patient records given longevity and patient follow-up program. No peer-reviewed autism publications found despite long history."
     },
+    "gmpCertifiedLab": "claimed",
     "patientsTotal": 3000,
     "autismPatientCount": 600,
     "yearsOperating": 30,
@@ -885,6 +895,7 @@
       "independentlyVerified": false,
       "notes": "Relatively new clinic (~3 years). No information found on lab certification or patient documentation. Unique triple-combination protocol (fetal + MUSE + exosomes) requires careful verification of cell sourcing — especially given the unverified MUSE cell claim."
     },
+    "gmpCertifiedLab": "no",
     "museCellClaim": {
       "status": "no_license_found",
       "licenseVerified": false,
@@ -969,6 +980,7 @@
       "independentlyVerified": false,
       "notes": "Verita Neuro emphasizes using fresh cells for maximum potency over cryopreserved alternatives. Claims high-quality sourcing across multiple countries. No independent lab certification documentation found publicly."
     },
+    "gmpCertifiedLab": "no",
     "patientsTotal": 500,
     "autismPatientCount": 150,
     "yearsOperating": 8,
@@ -1034,6 +1046,7 @@
       "independentlyVerified": false,
       "notes": "Acts as coordinator for a partner clinic in Frankfurt. Lab certification of the actual Frankfurt treatment facility is not publicly identified. Ask specifically which lab produces the cells and request their GMP certificate."
     },
+    "gmpCertifiedLab": "no",
     "patientsTotal": 0,
     "autismPatientCount": 0,
     "yearsOperating": 5,
@@ -1105,6 +1118,7 @@
       "independentlyVerified": false,
       "notes": "Turkish clinics vary widely in documentation standards. The clinic references 'latest techniques and protocols.' Verify lab GMP certification and ask for cell viability documentation before treatment. Turkey's medical tourism regulation is evolving. Note: Autism Stem Care (ASC), also listed on this dashboard, publishes the identical street address (Bağdat Cad. No: 393 Kat: 1, Kadıköy/İstanbul) — strongly suggesting the two are sister brands operating from the same premises rather than fully independent facilities. Worth clarifying with either clinic directly."
     },
+    "gmpCertifiedLab": "no",
     "patientsTotal": 300,
     "autismPatientCount": 120,
     "yearsOperating": 7,
@@ -1177,6 +1191,7 @@
       "independentlyVerified": false,
       "notes": "Autism-specialized clinic; claims GMP-grade sourcing. Transparent pricing is positive but lab certification documentation not publicly available. Given autism-only focus, worth requesting their specific cell CoA and lab certification during consultation. Note: Istanbul Stem Cell Clinic, also listed on this dashboard, publishes the identical street address (Bağdat Cad. No: 393 Kat: 1, Kadıköy/İstanbul) — strongly suggesting the two are sister brands operating from the same premises rather than fully independent facilities. Worth clarifying with either clinic directly."
     },
+    "gmpCertifiedLab": "claimed",
     "patientsTotal": 150,
     "autismPatientCount": 150,
     "yearsOperating": 4,
@@ -1260,6 +1275,7 @@
       "independentlyVerified": false,
       "notes": "Cells manufactured by Regencell, BioXcellerator's partner lab in Colombia, which claims INVIMA authorization and GMP-compliant production. BioXcellerator states patients receive a Certificate of Analysis with each treatment. ISO 9001 certification claimed for laboratory processes. Independent third-party audit of Regencell's GMP status not publicly documented — request the current INVIMA authorization letter and cell CoA before proceeding."
     },
+    "gmpCertifiedLab": "claimed",
     "patientsTotal": 4000,
     "autismPatientCount": 250,
     "yearsOperating": 9,
@@ -1344,6 +1360,7 @@
       "independentlyVerified": false,
       "notes": "Cells supplied by CBCells Biotechnology, which Regenamex describes as 'authorized by the Mexican Health Ministry (COFEPRIS)' and operating under GMP conditions. However, CBCells' own website is inaccessible (401 error), no ISO certificate number or independent GMP audit is published, and no formal Certificate of Analysis is documented for patient distribution. One reviewer noted cells were shown microscopically at the clinic. COFEPRIS authorization is clinic-claimed but cannot be independently verified at this time."
     },
+    "gmpCertifiedLab": "claimed",
     "museCellClaim": {
       "status": "no_license_found",
       "licenseVerified": false,
@@ -1431,6 +1448,7 @@
       "independentlyVerified": false,
       "notes": "The clinic's only publicly cited credential is Turkey's International Health Tourism Authorisation Certificate, which licenses a facility for medical tourism rather than certifying cell-manufacturing quality. No lab partner name, ISO certificate number, GMP audit, or cell bank is disclosed anywhere on the clinic's site, and no patient-facing Certificate of Analysis (viability, sterility, lot number, donor screening) is described. Marketing pages also give inconsistent years-of-experience claims (12 vs. 18 years), a minor but notable transparency flag. Request the clinic's specific lab/cell-source documentation before proceeding."
     },
+    "gmpCertifiedLab": "no",
     "patientsTotal": 2000,
     "yearsOperating": 12,
     "procedure": {
@@ -1492,6 +1510,7 @@
       "independentlyVerified": false,
       "notes": "No ISO certification, GMP compliance statement, or regulatory accreditation found for Regeneration Clinic's laboratory on any page checked. Do not confuse with the separate Panama City clinic \"Stem Cell Institute\" (cellmedicine.com), which does hold ISO 9001/GMP certification — that credential belongs to a different clinic and should not be attributed here."
     },
+    "gmpCertifiedLab": "no",
     "patientsTotal": 0,
     "autismPatientCount": 0,
     "procedure": {
@@ -1574,6 +1593,7 @@
       "independentlyVerified": false,
       "notes": "Site self-claims \"ISO Certified\" and \"FDA-approved technology\" with no certificate numbers, issuing bodies, CDSCO/ICMR/NABL accreditation, or independent verification found. Given the March 2026 NMC advisory restricting autism stem cell therapy in India, this entry carries meaningfully higher regulatory risk than other providers on this list."
     },
+    "gmpCertifiedLab": "no",
     "patientsTotal": 4000,
     "yearsOperating": 14,
     "procedure": {
@@ -1585,5 +1605,515 @@
       "phone": "+91-9011111222"
     },
     "dataLastVerified": "2026-07-26"
+  },
+  {
+    "id": "vinmec-international-hospital-vietnam",
+    "name": "Vinmec International Hospital — Stem Cell and Gene Technology Institute",
+    "overview": "Vinmec Times City International Hospital in Hanoi (part of the JCI-accredited Vinmec Healthcare System) runs Vietnam's first government-approved clinical research program using autologous bone marrow mononuclear cells for autism spectrum disorder. An initial open-label trial (30 children, 2017-2019) was published in Stem Cells Translational Medicine in 2020, and a follow-up randomized, open-label, controlled Phase II trial (54 children, Dec 2021-Dec 2023) was published in Stem Cell Research & Therapy in 2025 — among the only peer-reviewed randomized trials of stem cell therapy for autism worldwide. Cells are processed at Vinmec's own accredited Stem Cell and Gene Technology Institute.",
+    "location": {
+      "country": "Vietnam",
+      "countryCode": "VN",
+      "city": "Hanoi",
+      "address": "Vinmec Times City International Hospital, 458 Minh Khai, Hai Ba Trung District, Hanoi, Vietnam",
+      "coordinates": { "lat": 20.9964, "lng": 105.8646 }
+    },
+    "cellTypes": ["bone_marrow"],
+    "deliveryRoutes": ["intrathecal"],
+    "cellSource": "autologous",
+    "humanCellsOnly": true,
+    "offersFMT": false,
+    "effectiveness": {
+      "communication": { "score": 5.5, "confidence": "medium", "source": "published_study", "sampleSize": 54, "notes": "Phase II RCT (2025) reported significant social-communication improvements versus the education-only control group; effect sizes were modest and the trial was open-label (not blinded)." },
+      "socialSkills":  { "score": 5.5, "confidence": "medium", "source": "published_study", "sampleSize": 54, "notes": "Improvements in social interaction domains reported in the randomized controlled cohort." },
+      "behavior":      { "score": 5, "confidence": "medium", "source": "published_study", "sampleSize": 30, "notes": "2020 pilot study (n=30) reported median CARS score reduction from 50 to 46.5 within 18 months post-transplant." },
+      "selfCare":      { "score": 4, "confidence": "low", "source": "published_study", "sampleSize": 30, "notes": "Adaptive/daily-living skill gains noted in the pilot cohort but were not the primary published endpoint." }
+    },
+    "evidence": {
+      "gradeLevel": "moderate",
+      "studyDesign": "RCT",
+      "publications": [
+        {
+          "title": "Outcomes of bone marrow mononuclear cell transplantation combined with interventional education for autism spectrum disorder",
+          "journal": "Stem Cells Translational Medicine",
+          "year": 2020,
+          "sampleSize": 30,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32902182/"
+        },
+        {
+          "title": "Outcomes of autologous bone marrow mononuclear cell administration combined with educational intervention in the treatment of autism spectrum disorder: a randomized, open-label, controlled phase II clinical trial",
+          "journal": "Stem Cell Research & Therapy",
+          "year": 2025,
+          "sampleSize": 54,
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12123819/"
+        }
+      ],
+      "clinicalTrials": []
+    },
+    "testimonials": {
+      "aggregateRating": 0,
+      "totalReviews": 0,
+      "ratingBreakdown": { "5": 0, "4": 0, "3": 0, "2": 0, "1": 0 },
+      "featured": [],
+      "externalUrl": ""
+    },
+    "cost": {
+      "minUSD": 0,
+      "maxUSD": 0,
+      "includesAccommodation": false,
+      "sessionRange": { "min": 1, "max": 1 },
+      "notes": "Delivered as a hospital-based clinical research program rather than a commercial medical-tourism package; public per-patient pricing is not disclosed. Contact Vinmec directly for current availability and cost."
+    },
+    "coa": {
+      "level": "lab_only",
+      "labCertifications": ["JCI-Accredited Hospital", "Vietnam Ministry of Health-Approved Clinical Trial", "GMP-compliant Cell Processing (Vinmec Stem Cell and Gene Technology Institute)"],
+      "patientDocuments": [],
+      "independentlyVerified": true,
+      "notes": "Cell processing occurs in Vinmec's own accredited Stem Cell and Gene Technology Institute lab; independent verification here comes from peer-reviewed publication of trial outcomes in Stem Cells Translational Medicine and Stem Cell Research & Therapy, not from a public patient-facing Certificate of Analysis."
+    },
+    "gmpCertifiedLab": "yes",
+    "patientsTotal": 84,
+    "autismPatientCount": 84,
+    "yearsOperating": 9,
+    "procedure": {
+      "method": "Autologous bone marrow harvested via iliac crest aspiration under general anesthesia; mononuclear cells isolated by Ficoll density-gradient separation and administered intrathecally, combined with structured educational/behavioral intervention.",
+      "durationNotes": "Delivered as a single-transplant clinical-trial protocol with structured follow-up assessments (e.g., at 18 months); not a multi-session commercial package."
+    },
+    "contact": {
+      "website": "https://www.vinmec.com"
+    },
+    "dataLastVerified": "2026-08-18"
+  },
+  {
+    "id": "biostar-angel-stemcell-japan",
+    "name": "Biostar Angel Stem Cell Therapy (Osaka Trinity Clinic)",
+    "overview": "In August 2025, Japan's Ministry of Health, Labour and Welfare (MHLW) approved Biostar Stem Cell Technology Research Institute's autologous adipose-derived 'Angel Stem Cell' therapy for autism spectrum disorder under Japan's Act on Safety of Regenerative Medicine — the first ASD-specific stem cell therapy formally approved for clinical provision in Japan. Biostar is jointly operated by Korean firms R Bio and Nature Cell in partnership with Japan Angel Stem Cell (JASC); treatment is delivered at Osaka Trinity Clinic. Approval followed preclinical work showing improvement of core ASD-like symptoms in valproic-acid-induced autism mouse models; as of data verification, no peer-reviewed human autism efficacy publication has followed the approval.",
+    "location": {
+      "country": "Japan",
+      "countryCode": "JP",
+      "city": "Osaka",
+      "address": "Osaka Trinity Clinic, Osaka, Japan (exact street address not publicly confirmed)",
+      "coordinates": { "lat": 34.6937, "lng": 135.5023 }
+    },
+    "cellTypes": ["adipose"],
+    "deliveryRoutes": ["iv"],
+    "cellSource": "autologous",
+    "humanCellsOnly": true,
+    "offersFMT": false,
+    "regulatoryNotes": "No dedicated public clinic website was identified during research; the contact link is the company's official press announcement of MHLW approval. Prospective patients should verify current contact details directly with Biostar / R Bio / Nature Cell before proceeding.",
+    "effectiveness": {
+      "communication": { "score": 0, "confidence": "none", "source": "unknown", "notes": "Approved August 2025; no published human autism outcome data yet. Post-treatment assessment protocol uses SRS-2 at 3 months post-final session, but results were not publicly available at time of research." },
+      "socialSkills":  { "score": 0, "confidence": "none", "source": "unknown", "notes": "No published human autism outcome data yet." },
+      "behavior":      { "score": 0, "confidence": "none", "source": "unknown", "notes": "No published human autism outcome data yet." },
+      "selfCare":      { "score": 0, "confidence": "none", "source": "unknown", "notes": "No published human autism outcome data yet." }
+    },
+    "evidence": {
+      "gradeLevel": "unrated",
+      "studyDesign": "none",
+      "publications": [],
+      "clinicalTrials": []
+    },
+    "testimonials": {
+      "aggregateRating": 0,
+      "totalReviews": 0,
+      "ratingBreakdown": { "5": 0, "4": 0, "3": 0, "2": 0, "1": 0 },
+      "featured": [],
+      "externalUrl": ""
+    },
+    "cost": {
+      "minUSD": 0,
+      "maxUSD": 0,
+      "includesAccommodation": false,
+      "sessionRange": { "min": 5, "max": 10 },
+      "notes": "Protocol involves 5-10 IV sessions of 50-300 million autologous adipose-derived stem cells, spaced 2-4 weeks apart, for patients age 4+. Public per-patient pricing was not found; contact Biostar/R Bio for current cost."
+    },
+    "coa": {
+      "level": "lab_only",
+      "labCertifications": ["MHLW-Approved Regenerative Medicine Provision Plan", "Certified Cell Processing Center (Act on Safety of Regenerative Medicine)"],
+      "patientDocuments": [],
+      "independentlyVerified": true,
+      "notes": "MHLW approval under Japan's Act on Safety of Regenerative Medicine requires an MHLW-registered treatment plan and a certified Cell Processing Center — a real government regulatory review, independently verified via multiple industry news outlets. This is a regulatory approval, not a completed peer-reviewed efficacy trial."
+    },
+    "gmpCertifiedLab": "yes",
+    "patientsTotal": 0,
+    "autismPatientCount": 0,
+    "yearsOperating": 1,
+    "procedure": {
+      "method": "IV infusion of autologous adipose-derived mesenchymal stem cells, 50-300 million cells per session.",
+      "durationNotes": "5-10 sessions spaced 2-4 weeks apart; SRS-2 assessment performed 3 months after the final session."
+    },
+    "contact": {
+      "website": "https://www.accessnewswire.com/newsroom/en/biotechnology/biostar-advances-stem-cell-therapy-for-autism-offering-new-possibilities-for-families-1057890"
+    },
+    "dataLastVerified": "2026-08-18"
+  },
+  {
+    "id": "cellthera-czech-republic",
+    "name": "Cellthera Clinic",
+    "overview": "Cellthera Clinic, founded by Prof. MUDr. Jaroslav Michálek, has operated a regenerative-medicine facility in Brno, Czech Republic, since 2013, using a proprietary method for isolating stem cells from adipose and connective tissue. It holds a GMP Certificate for cell and tissue processing issued by the State Institute for Drug Control (SÚKL), the Czech national drug regulator, and reports having treated nearly 3,000 patients. The clinic's own listed specialties are orthopedics, neurology, cardiology, oncology, and plastic surgery; third-party medical-tourism aggregators list it among Czech providers of autism stem cell therapy, but Cellthera's own materials found during research did not explicitly confirm a dedicated autism protocol — treat the autism-specific claim as unconfirmed pending direct clinic verification.",
+    "location": {
+      "country": "Czech Republic",
+      "countryCode": "CZ",
+      "city": "Brno",
+      "address": "Vídeňská 101/119, 619 00 Brno, Czech Republic (Vienna Point building, 12th floor)",
+      "coordinates": { "lat": 49.1783, "lng": 16.6072 }
+    },
+    "cellTypes": ["adipose"],
+    "deliveryRoutes": ["iv"],
+    "cellSource": "autologous",
+    "humanCellsOnly": true,
+    "offersFMT": false,
+    "regulatoryNotes": "Cellthera's own specialty listing (orthopedics, neurology, cardiology, oncology, plastic surgery) does not explicitly name autism; inclusion here reflects third-party medical-tourism directories, not a confirmed clinic-published autism protocol.",
+    "effectiveness": {
+      "communication": { "score": 0, "confidence": "none", "source": "unknown" },
+      "socialSkills":  { "score": 0, "confidence": "none", "source": "unknown" },
+      "behavior":      { "score": 0, "confidence": "none", "source": "unknown" },
+      "selfCare":      { "score": 0, "confidence": "none", "source": "unknown" }
+    },
+    "evidence": {
+      "gradeLevel": "unrated",
+      "studyDesign": "none",
+      "publications": [],
+      "clinicalTrials": []
+    },
+    "testimonials": {
+      "aggregateRating": 0,
+      "totalReviews": 0,
+      "ratingBreakdown": { "5": 0, "4": 0, "3": 0, "2": 0, "1": 0 },
+      "featured": [],
+      "externalUrl": ""
+    },
+    "cost": {
+      "minUSD": 0,
+      "maxUSD": 0,
+      "includesAccommodation": false,
+      "sessionRange": { "min": 1, "max": 1 },
+      "notes": "Public per-patient pricing was not confirmed during research; contact clinic for current quotes."
+    },
+    "coa": {
+      "level": "lab_only",
+      "labCertifications": ["GMP Certificate (State Institute for Drug Control / SÚKL, Czech Republic, 2013)"],
+      "patientDocuments": [],
+      "independentlyVerified": true,
+      "notes": "GMP certification for cell and tissue processing was issued by SÚKL, the Czech national regulator — a genuine third-party government certification. Independent verification applies to the lab's GMP status generally, not to any autism-specific outcome claim."
+    },
+    "gmpCertifiedLab": "yes",
+    "patientsTotal": 3000,
+    "yearsOperating": 13,
+    "procedure": {
+      "method": "Autologous adipose/connective-tissue-derived stem and regenerative cell therapy, delivered via IV infusion.",
+      "durationNotes": "Not publicly specified for autism-specific protocols."
+    },
+    "contact": {
+      "website": "https://www.placidway.com/profile/2631/Cellthera-Clinic"
+    },
+    "dataLastVerified": "2026-08-18"
+  },
+  {
+    "id": "dvc-stem-cayman",
+    "name": "DVC Stem",
+    "overview": "DVC Stem operates in George Town, Grand Cayman, under an IRB-approved protocol registered with the Cayman Islands Health Practitioners Commission (Trial HPC/CTR/003) using human umbilical cord tissue-derived mesenchymal stem cells for a range of conditions including autism. Cells are sourced from Vitro Biopharma Inc., a US-based, FDA-registered, cGMP-compliant, ISO 9001-certified laboratory — an independently identifiable third-party manufacturer rather than an in-house unverified lab, which distinguishes this provider's supply chain transparency from many other clinics on this list.",
+    "location": {
+      "country": "Cayman Islands",
+      "countryCode": "KY",
+      "city": "George Town",
+      "address": "George Town, Grand Cayman, Cayman Islands (exact street address not publicly confirmed)",
+      "coordinates": { "lat": 19.3133, "lng": -81.2546 }
+    },
+    "cellTypes": ["umbilical_cord_msc"],
+    "deliveryRoutes": ["iv"],
+    "cellSource": "allogeneic",
+    "humanCellsOnly": true,
+    "offersFMT": false,
+    "effectiveness": {
+      "communication": { "score": 0, "confidence": "none", "source": "unknown", "notes": "No autism-specific peer-reviewed outcome data found; clinic-reported case testimonials exist but were not independently verified during research." },
+      "socialSkills":  { "score": 0, "confidence": "none", "source": "unknown" },
+      "behavior":      { "score": 0, "confidence": "none", "source": "unknown" },
+      "selfCare":      { "score": 0, "confidence": "none", "source": "unknown" }
+    },
+    "evidence": {
+      "gradeLevel": "very_low",
+      "studyDesign": "anecdotal",
+      "publications": [],
+      "clinicalTrials": []
+    },
+    "testimonials": {
+      "aggregateRating": 0,
+      "totalReviews": 0,
+      "ratingBreakdown": { "5": 0, "4": 0, "3": 0, "2": 0, "1": 0 },
+      "featured": [],
+      "externalUrl": ""
+    },
+    "cost": {
+      "minUSD": 0,
+      "maxUSD": 0,
+      "includesAccommodation": false,
+      "sessionRange": { "min": 1, "max": 1 },
+      "notes": "Public per-patient pricing for autism-specific protocols was not confirmed during research; contact clinic for current quotes."
+    },
+    "coa": {
+      "level": "lab_only",
+      "labCertifications": ["cGMP (Vitro Biopharma Inc., USA)", "FDA-Registered Supplier", "ISO 9001 Certified Supplier", "Cayman Islands Health Practitioners Commission Registered Trial (HPC/CTR/003)"],
+      "patientDocuments": [],
+      "independentlyVerified": true,
+      "notes": "Cells are manufactured by Vitro Biopharma Inc., an independently identifiable US-based cGMP/FDA-registered/ISO 9001 supplier, and the clinical protocol is registered with the Cayman Islands government — stronger sourcing transparency than clinics that only self-report lab standards."
+    },
+    "gmpCertifiedLab": "yes",
+    "patientsTotal": 0,
+    "yearsOperating": 5,
+    "procedure": {
+      "method": "IV infusion of allogeneic human umbilical cord tissue-derived mesenchymal stem cells sourced from Vitro Biopharma Inc.",
+      "durationNotes": "Not publicly specified for autism-specific protocols."
+    },
+    "contact": {
+      "website": "https://www.dvcstem.com"
+    },
+    "dataLastVerified": "2026-08-18"
+  },
+  {
+    "id": "beijing-puhua-china",
+    "name": "Beijing Puhua International Hospital",
+    "overview": "Beijing Puhua International Hospital has offered stem cell therapy since 1995 and operates a dedicated in-house Stem Cell Center, treating autism and cerebral palsy among other neurological conditions; more than half of patients are international, drawn from the Americas, Europe, Russia, Africa, Australia, and the Middle East. Cell processing is regulated under China's National Health Commission (NHC) and National Medical Products Administration (NMPA) framework, which mandates GMP-certified cleanroom standards for cell-therapy manufacturing; no independent third-party audit of Puhua's specific facility was found during research, and the hospital's own case studies (not peer-reviewed publications) are the main public evidence of autism outcomes.",
+    "location": {
+      "country": "China",
+      "countryCode": "CN",
+      "city": "Beijing",
+      "address": "Beijing Puhua International Hospital, Beijing, China (exact street address not publicly confirmed)",
+      "coordinates": { "lat": 39.9042, "lng": 116.4074 }
+    },
+    "cellTypes": ["umbilical_cord_msc", "bone_marrow"],
+    "deliveryRoutes": ["iv", "intrathecal"],
+    "cellSource": "both",
+    "humanCellsOnly": true,
+    "offersFMT": false,
+    "effectiveness": {
+      "communication": { "score": 0, "confidence": "none", "source": "unknown", "notes": "Hospital publishes individual case studies (e.g., a Canadian patient treated in 2012) on its own site, but no peer-reviewed, aggregate autism outcome data was found." },
+      "socialSkills":  { "score": 0, "confidence": "none", "source": "unknown" },
+      "behavior":      { "score": 0, "confidence": "none", "source": "unknown" },
+      "selfCare":      { "score": 0, "confidence": "none", "source": "unknown" }
+    },
+    "evidence": {
+      "gradeLevel": "very_low",
+      "studyDesign": "case_series",
+      "publications": [],
+      "clinicalTrials": []
+    },
+    "testimonials": {
+      "aggregateRating": 0,
+      "totalReviews": 0,
+      "ratingBreakdown": { "5": 0, "4": 0, "3": 0, "2": 0, "1": 0 },
+      "featured": [],
+      "externalUrl": "https://puhuahospital.com/case-studies/autism/stem-cell-therapy-roger/"
+    },
+    "cost": {
+      "minUSD": 0,
+      "maxUSD": 0,
+      "includesAccommodation": false,
+      "sessionRange": { "min": 1, "max": 1 },
+      "notes": "Public per-patient pricing was not confirmed during research; medical-tourism packages are typically quoted on request."
+    },
+    "coa": {
+      "level": "claimed",
+      "labCertifications": ["NMPA/NHC-Regulated GMP Cleanroom (claimed)"],
+      "patientDocuments": [],
+      "independentlyVerified": false,
+      "notes": "Hospital operates under China's national NHC/NMPA regulatory framework, which requires GMP-certified cleanrooms for cell-therapy manufacturing in general — but no independent, facility-specific GMP audit or certificate number for Puhua's Stem Cell Center was found publicly."
+    },
+    "gmpCertifiedLab": "claimed",
+    "patientsTotal": 0,
+    "yearsOperating": 31,
+    "procedure": {
+      "method": "IV infusion and/or intrathecal injection of umbilical cord-derived or bone marrow-derived stem cells, combined with 'Minimally Invasive Brain Repair' and multidisciplinary rehabilitation per the hospital's marketing materials.",
+      "durationNotes": "Not publicly specified; described as a multidisciplinary program from diagnosis through rehabilitation."
+    },
+    "contact": {
+      "website": "https://puhuahospital.com"
+    },
+    "dataLastVerified": "2026-08-18"
+  },
+  {
+    "id": "giostar-mexico",
+    "name": "GIOSTAR Mexico",
+    "overview": "GIOSTAR Mexico is the Mexican treatment arm of the Global Institute of Stem Cell Therapy and Research (GIOSTAR), headquartered in San Diego, California. It operates a 20-bed stem cell facility with an in-house laboratory in Los Algodones, Baja California, plus a partnership with the 150-bed San Javier Hospital in Guadalajara. GIOSTAR markets stem cell therapy for autism spectrum disorder as part of a broader regenerative-medicine practice; its labs are described as COFEPRIS-certified (Mexico's national pharmaceutical/medical-device regulator), though no independently published certificate number or third-party audit was found during research.",
+    "location": {
+      "country": "Mexico",
+      "countryCode": "MX",
+      "city": "Los Algodones",
+      "address": "Los Algodones, Baja California, Mexico (exact street address not publicly confirmed)",
+      "coordinates": { "lat": 32.6597, "lng": -114.7222 }
+    },
+    "branches": [
+      { "city": "Guadalajara", "country": "Mexico", "note": "Partner facility: San Javier Hospital, a 150-bed multi-specialty tertiary care hospital" }
+    ],
+    "cellTypes": ["umbilical_cord_msc", "bone_marrow", "adipose"],
+    "deliveryRoutes": ["iv"],
+    "cellSource": "both",
+    "humanCellsOnly": true,
+    "offersFMT": false,
+    "effectiveness": {
+      "communication": { "score": 0, "confidence": "none", "source": "unknown" },
+      "socialSkills":  { "score": 0, "confidence": "none", "source": "unknown" },
+      "behavior":      { "score": 0, "confidence": "none", "source": "unknown" },
+      "selfCare":      { "score": 0, "confidence": "none", "source": "unknown" }
+    },
+    "evidence": {
+      "gradeLevel": "unrated",
+      "studyDesign": "none",
+      "publications": [],
+      "clinicalTrials": []
+    },
+    "testimonials": {
+      "aggregateRating": 0,
+      "totalReviews": 0,
+      "ratingBreakdown": { "5": 0, "4": 0, "3": 0, "2": 0, "1": 0 },
+      "featured": [],
+      "externalUrl": "https://giostarmexico.com/giostar-mexico-stem-cell-therapy-reviews/"
+    },
+    "cost": {
+      "minUSD": 8500,
+      "maxUSD": 8500,
+      "includesAccommodation": false,
+      "sessionRange": { "min": 1, "max": 1 },
+      "notes": "Marketed starting price for one application is $8,500 USD; actual protocol length and total cost depend on the personalized plan set by GIOSTAR's Medical Director."
+    },
+    "coa": {
+      "level": "claimed",
+      "labCertifications": ["COFEPRIS-Certified Laboratory (claimed)"],
+      "patientDocuments": [],
+      "independentlyVerified": false,
+      "notes": "GIOSTAR states its in-house Mexico labs are COFEPRIS-certified, giving it 'full control over quality, safety, and customization,' but no certificate number or independent third-party audit was found publicly."
+    },
+    "gmpCertifiedLab": "claimed",
+    "patientsTotal": 0,
+    "yearsOperating": 10,
+    "procedure": {
+      "method": "IV infusion of stem cells (cell type and dose individualized per GIOSTAR's Medical Director).",
+      "durationNotes": "Not publicly specified; protocol length depends on the personalized plan."
+    },
+    "contact": {
+      "website": "https://giostarmexico.com"
+    },
+    "dataLastVerified": "2026-08-18"
+  },
+  {
+    "id": "firstcell-malaysia",
+    "name": "FirstCell Malaysia",
+    "overview": "FirstCell is a Kuala Lumpur-based biotechnology center offering stem cell therapy for autism, positioned as a lower-cost alternative for Japanese and other international families compared to domestic Japanese treatment. It operates under Malaysian Ministry of Health guidelines, which the clinic states allows administration of high-dose expanded stem cells (100 million+ cells). Treatment uses Wharton's Jelly-derived umbilical cord mesenchymal stem cells delivered via IV or intrathecal injection.",
+    "location": {
+      "country": "Malaysia",
+      "countryCode": "MY",
+      "city": "Kuala Lumpur",
+      "address": "Kuala Lumpur, Malaysia (exact street address not publicly confirmed)",
+      "coordinates": { "lat": 3.1390, "lng": 101.6869 }
+    },
+    "cellTypes": ["umbilical_cord_msc"],
+    "deliveryRoutes": ["iv", "intrathecal"],
+    "cellSource": "allogeneic",
+    "humanCellsOnly": true,
+    "offersFMT": false,
+    "effectiveness": {
+      "communication": { "score": 0, "confidence": "none", "source": "unknown" },
+      "socialSkills":  { "score": 0, "confidence": "none", "source": "unknown" },
+      "behavior":      { "score": 0, "confidence": "none", "source": "unknown" },
+      "selfCare":      { "score": 0, "confidence": "none", "source": "unknown" }
+    },
+    "evidence": {
+      "gradeLevel": "unrated",
+      "studyDesign": "none",
+      "publications": [],
+      "clinicalTrials": []
+    },
+    "testimonials": {
+      "aggregateRating": 0,
+      "totalReviews": 0,
+      "ratingBreakdown": { "5": 0, "4": 0, "3": 0, "2": 0, "1": 0 },
+      "featured": [],
+      "externalUrl": ""
+    },
+    "cost": {
+      "minUSD": 9800,
+      "maxUSD": 9800,
+      "includesAccommodation": false,
+      "sessionRange": { "min": 1, "max": 1 },
+      "notes": "Marketed starting price is $9,800 USD, positioned against domestic Japanese treatment costs which the clinic states can exceed $30,000."
+    },
+    "coa": {
+      "level": "claimed",
+      "labCertifications": ["GMP-Certified Laboratory (claimed, per Malaysia MOH guidelines)"],
+      "patientDocuments": [],
+      "independentlyVerified": false,
+      "notes": "Clinic states treatment is provided in GMP-certified laboratories adhering to Ministry of Health guidelines with 99% cell viability, but no independent certificate number or third-party audit was found publicly."
+    },
+    "gmpCertifiedLab": "claimed",
+    "patientsTotal": 0,
+    "yearsOperating": 6,
+    "procedure": {
+      "method": "IV drip or intrathecal injection of Wharton's Jelly-derived umbilical cord mesenchymal stem cells.",
+      "durationNotes": "Not publicly specified."
+    },
+    "contact": {
+      "website": "https://www.firstcell.com.my"
+    },
+    "dataLastVerified": "2026-08-18"
+  },
+  {
+    "id": "dynasty-clinic-dubai",
+    "name": "Dynasty Clinic",
+    "overview": "Dynasty Clinic is a Dubai Health Authority (DHA)-licensed wellness clinic offering regenerative medicine including stem cell IV therapy for autistic children, combined with NAD+ IV therapy, exosome injections, and functional-medicine support. All stem cells are processed in ISO-certified laboratories under stated Good Manufacturing Practice conditions, with each cell batch independently tested for sterility and viability (>85%) per the clinic's own claims; no independently published lab certificate number or third-party audit was found during research.",
+    "location": {
+      "country": "United Arab Emirates",
+      "countryCode": "AE",
+      "city": "Dubai",
+      "address": "Dubai, United Arab Emirates (exact street address not publicly confirmed)",
+      "coordinates": { "lat": 25.2048, "lng": 55.2708 }
+    },
+    "cellTypes": ["umbilical_cord_msc", "exosomes"],
+    "deliveryRoutes": ["iv"],
+    "cellSource": "allogeneic",
+    "humanCellsOnly": true,
+    "offersFMT": false,
+    "effectiveness": {
+      "communication": { "score": 0, "confidence": "none", "source": "unknown" },
+      "socialSkills":  { "score": 0, "confidence": "none", "source": "unknown" },
+      "behavior":      { "score": 0, "confidence": "none", "source": "unknown" },
+      "selfCare":      { "score": 0, "confidence": "none", "source": "unknown" }
+    },
+    "evidence": {
+      "gradeLevel": "unrated",
+      "studyDesign": "none",
+      "publications": [],
+      "clinicalTrials": []
+    },
+    "testimonials": {
+      "aggregateRating": 0,
+      "totalReviews": 0,
+      "ratingBreakdown": { "5": 0, "4": 0, "3": 0, "2": 0, "1": 0 },
+      "featured": [],
+      "externalUrl": ""
+    },
+    "cost": {
+      "minUSD": 0,
+      "maxUSD": 0,
+      "includesAccommodation": false,
+      "sessionRange": { "min": 1, "max": 1 },
+      "notes": "Public per-patient pricing was not confirmed during research; the clinic is consultation-based."
+    },
+    "coa": {
+      "level": "claimed",
+      "labCertifications": ["ISO-Certified Laboratory (claimed)", "GMP Conditions (claimed)", "DHA-Licensed Regenerative Medicine Provider"],
+      "patientDocuments": [],
+      "independentlyVerified": false,
+      "notes": "Clinic holds a genuine DHA license to operate as a regenerative-medicine provider, and states cells are processed under ISO/GMP conditions with per-batch sterility/viability testing — but no independently published lab certificate number or third-party audit was found publicly."
+    },
+    "gmpCertifiedLab": "claimed",
+    "patientsTotal": 0,
+    "yearsOperating": 5,
+    "procedure": {
+      "method": "IV stem cell therapy for autistic children, combined with NAD+ IV therapy, exosome injections, and functional-medicine/physiotherapy support.",
+      "durationNotes": "Not publicly specified; individualized consultation-based protocol."
+    },
+    "contact": {
+      "website": "https://dynastyclinic.ae"
+    },
+    "dataLastVerified": "2026-08-18"
   }
 ]

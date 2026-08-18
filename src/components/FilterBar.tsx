@@ -43,6 +43,13 @@ const fmtOptions = [
   { value: 'no', label: 'No FMT' },
 ]
 
+const gmpOptions = [
+  { value: '', label: 'GMP Lab: All' },
+  { value: 'yes', label: 'Verified GMP Lab' },
+  { value: 'claimed', label: 'Claimed GMP (Unverified)' },
+  { value: 'no', label: 'No GMP Evidence' },
+]
+
 export function FilterBar({ providers }: Props) {
   const { filters, setFilter, resetFilters } = useDashboardStore()
 
@@ -54,6 +61,7 @@ export function FilterBar({ providers }: Props) {
     filters.evidenceGrade !== '' ||
     filters.deliveryRoute !== '' ||
     filters.offersFMT !== '' ||
+    filters.gmpCertifiedLab !== '' ||
     filters.maxCostUSD < 100000 ||
     filters.search !== ''
 
@@ -132,6 +140,19 @@ export function FilterBar({ providers }: Props) {
             className="border border-gray-300 rounded px-2.5 py-1.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-400"
           >
             {fmtOptions.map((o) => (
+              <option key={o.value} value={o.value}>{o.label}</option>
+            ))}
+          </select>
+        </div>
+
+        <div className="flex flex-col gap-1">
+          <label className="text-xs text-gray-500 font-medium">GMP Lab</label>
+          <select
+            value={filters.gmpCertifiedLab}
+            onChange={(e) => setFilter('gmpCertifiedLab', e.target.value as any)}
+            className="border border-gray-300 rounded px-2.5 py-1.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-400"
+          >
+            {gmpOptions.map((o) => (
               <option key={o.value} value={o.value}>{o.label}</option>
             ))}
           </select>
