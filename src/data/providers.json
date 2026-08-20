@@ -2115,5 +2115,69 @@
       "website": "https://dynastyclinic.ae"
     },
     "dataLastVerified": "2026-08-18"
+  },
+  {
+    "id": "angels-hope-mexico",
+    "name": "Angel's Hope (ASD Treatment)",
+    "overview": "Angel's Hope is an autism-focused regenerative medicine clinic in Zapopan (Guadalajara metro area), Jalisco, Mexico. Their protocol combines umbilical cord-derived mesenchymal stem cells, NK cells, exosomes (including a nasal-spray exosome product), and proprietary 'AH neuropeptides,' delivered via IV infusion, nebulized/inhaled administration, and intrathecal (lumbar puncture) injection — typically given together during a single anesthesia session for pediatric patients as part of a 7-day travel package. The clinic has a large social media following (~20K+ Instagram followers) and publishes parent testimonials describing socialization and behavioral gains within weeks, but no peer-reviewed publications, registered clinical trials, published lab certification, or independent GMP/COFEPRIS verification were found.",
+    "location": {
+      "country": "Mexico",
+      "countryCode": "MX",
+      "city": "Zapopan",
+      "address": "Av. Central Guillermo González Camarena 911, Poniente, 45136 Zapopan, Jalisco, Mexico",
+      "coordinates": { "lat": 20.7048, "lng": -103.4144 }
+    },
+    "cellTypes": ["umbilical_cord_msc", "exosomes"],
+    "deliveryRoutes": ["iv", "intrathecal", "intranasal"],
+    "cellSource": "allogeneic",
+    "humanCellsOnly": true,
+    "offersFMT": false,
+    "effectiveness": {
+      "communication": { "score": 5, "confidence": "low", "source": "provider_report", "notes": "Clinic testimonials describe new speech/drawing milestones; no quantitative scale (CARS/ATEC) data published" },
+      "socialSkills":  { "score": 5.5, "confidence": "low", "source": "provider_report", "notes": "Testimonials cite improved peer socialization reported by schools; anecdotal only" },
+      "behavior":      { "score": 5, "confidence": "low", "source": "provider_report", "notes": "Testimonials mention calmer behavior; no published outcome measures" },
+      "selfCare":      { "score": 4, "confidence": "none", "source": "unknown", "notes": "No self-care outcome data published" }
+    },
+    "evidence": {
+      "gradeLevel": "very_low",
+      "studyDesign": "anecdotal",
+      "publications": [],
+      "clinicalTrials": []
+    },
+    "testimonials": {
+      "aggregateRating": 0,
+      "totalReviews": 0,
+      "ratingBreakdown": { "5": 0, "4": 0, "3": 0, "2": 0, "1": 0 },
+      "featured": [],
+      "externalUrl": "https://angelshope.mx/"
+    },
+    "cost": {
+      "minUSD": 0,
+      "maxUSD": 0,
+      "includesAccommodation": false,
+      "sessionRange": { "min": 1, "max": 1 },
+      "notes": "No public per-patient pricing found. Site describes a 7-day package (arrival through departure, first-day consultation, English-speaking staff, accommodations) with treatment delivered in a single combined-route session under anesthesia; price disclosed after consultation."
+    },
+    "coa": {
+      "level": "unknown",
+      "labCertifications": [],
+      "patientDocuments": [],
+      "independentlyVerified": false,
+      "notes": "No lab certification, GMP/ISO status, or COFEPRIS authorization is claimed or published on the clinic's site or elsewhere found during research. Request cell-source, processing-lab, and Certificate of Analysis documentation directly before proceeding."
+    },
+    "gmpCertifiedLab": "no",
+    "patientsTotal": 0,
+    "autismPatientCount": 0,
+    "procedure": {
+      "method": "Combined single-session administration (under anesthesia for pediatric patients) of umbilical cord MSCs, NK cells, exosomes (including nasal-spray exosomes), and AH neuropeptides via IV infusion, nebulized/inhaled route, and intrathecal injection.",
+      "durationDays": { "min": 7, "max": 7 },
+      "durationNotes": "Clinic markets a 7-day package from arrival to departure, with first-day consultation and treatment administered in a single day; exact clinical protocol beyond that is not publicly detailed."
+    },
+    "contact": {
+      "website": "https://angelshope.mx",
+      "email": "info@angelshope.mx",
+      "phone": "+52-33-1607-5616"
+    },
+    "dataLastVerified": "2026-08-20"
   }
 ]
