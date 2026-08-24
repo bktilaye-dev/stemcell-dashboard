@@ -2179,5 +2179,80 @@
       "phone": "+52-33-1607-5616"
     },
     "dataLastVerified": "2026-08-20"
+  },
+  {
+    "id": "neorgana-mexico",
+    "name": "Neorgana",
+    "overview": "Neorgana is a Mexican regenerative-medicine group (clinics in Mérida, Mexico City, and Cancún) founded by Omar Novelo, positioned as an officially authorized clinical partner of MuseCell Innovations (MCI), the Singapore-based global licensor of Dr. Mari Dezawa's Dezawa MUSE Cells®/MUSE Exosomes®. Its own marketing lists six broad categories — neurocognitive, immune/autoimmune, cardiometabolic, pain/mobility, organ repair, and longevity — covering conditions like Alzheimer's, stroke recovery, PTSD, and long COVID, but does not name autism/ASD as a treated indication anywhere on its public site. The only autism-relevant signal found is MCI's own advisory-board listing, which tags Neorgana's National Medical Director, Dr. J. Omar Novelo-Baeza, with the label 'pediatric neuroregen,' suggesting a pediatric neurodevelopmental focus exists but is not publicly detailed. No autism-specific protocol, pricing, patient counts, publications, or testimonials were found. Because autism is not an advertised indication, treat this listing as a MUSE-cell-licensed general regenerative clinic that may treat autism on a case-by-case/off-label basis rather than a dedicated autism program — confirm autism-specific experience and protocol directly with the clinic before proceeding.",
+    "location": {
+      "country": "Mexico",
+      "countryCode": "MX",
+      "city": "Mérida",
+      "address": "Mérida, Yucatán, Mexico (exact street address not published; contact clinic for location details)",
+      "coordinates": { "lat": 20.9674, "lng": -89.5926 }
+    },
+    "branches": [
+      { "city": "Mexico City", "country": "Mexico", "note": "CDMX clinic location; exact address not published" },
+      { "city": "Cancún", "country": "Mexico", "note": "Cancún clinic location; exact address not published" }
+    ],
+    "cellTypes": ["MUSE_dezawa", "exosomes"],
+    "deliveryRoutes": ["iv"],
+    "cellSource": "allogeneic",
+    "humanCellsOnly": true,
+    "offersFMT": false,
+    "regulatoryNotes": "Operates in Mexico under COFEPRIS jurisdiction (as with other Mexico-based regenerative clinics); no COFEPRIS-specific authorization document for Neorgana itself was independently located.",
+    "effectiveness": {
+      "communication": { "score": 0, "confidence": "none", "source": "unknown", "notes": "Autism is not a listed indication on the clinic's own site; no autism-specific outcome data published" },
+      "socialSkills":  { "score": 0, "confidence": "none", "source": "unknown", "notes": "No autism-specific outcome data published" },
+      "behavior":      { "score": 0, "confidence": "none", "source": "unknown", "notes": "No autism-specific outcome data published" },
+      "selfCare":      { "score": 0, "confidence": "none", "source": "unknown", "notes": "No autism-specific outcome data published" }
+    },
+    "evidence": {
+      "gradeLevel": "unrated",
+      "studyDesign": "none",
+      "publications": [],
+      "clinicalTrials": []
+    },
+    "testimonials": {
+      "aggregateRating": 0,
+      "totalReviews": 0,
+      "ratingBreakdown": { "5": 0, "4": 0, "3": 0, "2": 0, "1": 0 },
+      "featured": [],
+      "externalUrl": "https://neorgana.com/"
+    },
+    "cost": {
+      "minUSD": 0,
+      "maxUSD": 0,
+      "includesAccommodation": false,
+      "sessionRange": { "min": 1, "max": 1 },
+      "notes": "No public pricing found for any protocol, including MUSE Cell, MUSE Exosome, NK-cell, or peptide therapy; price disclosed after consultation."
+    },
+    "coa": {
+      "level": "claimed",
+      "labCertifications": ["MCI-licensed Dezawa MUSE Cells manufacturing (claimed, upstream of clinic)"],
+      "patientDocuments": [],
+      "independentlyVerified": false,
+      "notes": "MuseCell Innovations (MCI) controls manufacturing/QC of authentic Dezawa MUSE Cells upstream, and independently lists Neorgana as an authorized partner. However, no GMP/ISO certification, Certificate of Analysis practice, or independent lab audit specific to Neorgana's own clinical sites was found. Request lot-level Certificate of Analysis and processing-lab documentation before proceeding."
+    },
+    "gmpCertifiedLab": "claimed",
+    "museCellClaim": {
+      "status": "licensed",
+      "licenseVerified": true,
+      "licensePartner": "MuseCell Innovations (MCI), Singapore",
+      "verificationSource": "https://musecellinnovations.com/ (lists Neorgana / J. Omar Novelo-Baeza MD as Medical Director, Neorgana Regenerative, on its advisory board)",
+      "notes": "Independently confirmed on MCI's own site as an authorized partner for Dezawa MUSE Cells/MUSE Exosomes, distinct from clinics merely claiming MUSE branding without a verifiable license. MCI is the post-2023 global licensor of Dr. Dezawa's IP (Tohoku University's original commercial partner, Life Science Institute/LSII, had its exclusive Japan license terminated Aug 31 2023). No peer-reviewed MUSE cell trial for autism exists from Neorgana or MCI."
+    },
+    "patientsTotal": 0,
+    "autismPatientCount": 0,
+    "procedure": {
+      "method": "IV infusion of Dezawa MUSE Cells® and/or Dezawa MUSE Exosomes®, with optional add-on Natural Killer (NK) cell therapy and peptide therapy; branded protocols referenced as 'Dezawa Titanium Bag®' and 'Dezawa Platinum Bag®'. Autism-specific protocol details are not publicly documented.",
+      "durationNotes": "Not publicly specified; no session count, package length, or follow-up schedule disclosed on the clinic's site."
+    },
+    "contact": {
+      "website": "https://neorgana.com",
+      "email": "contacto@neorgana.com",
+      "phone": "+52-999-245-6260"
+    },
+    "dataLastVerified": "2026-08-24"
   }
 ]
