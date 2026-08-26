@@ -2258,7 +2258,7 @@
   {
     "id": "aura-regenerative-mexico",
     "name": "Aura Regenerative Center",
-    "overview": "Aura Regenerative Center is a physician-led regenerative-medicine clinic on the 47th floor of an office tower in Monterrey, Nuevo León, Mexico, directed by Dr. Fernando Hernández Martínez. Alongside orthopedic, autoimmune, neurodegenerative, and anti-aging services, it markets a pediatric autism/ASD program using allogeneic umbilical cord-derived mesenchymal stem cells and Dezawa-branded 'MUSECells®'/'MuseExosome®' products. The clinic states it holds a Mexican COFEPRIS regulatory license (No. 24-TR-19-039-0003, per third-party medical-tourism listings) and ISSCA membership, with each cellular product accompanied by a Certificate of Analysis — but MuseCell Innovations (MCI)'s own authorized-centers list does not name Aura Regenerative directly; Mexico access to authentic Dezawa MuseCells® is instead routed through a distributor network ('Regene Global'), so the clinic's MUSE-branding claim is unverified pending direct confirmation. No peer-reviewed publications, registered clinical trials, or autism-specific patient counts/pricing were found during research; the only public autism-relevant evidence is a single parent testimonial (via the Bookimed medical-tourism platform) reporting improved receptive/expressive communication after treatment.",
+    "overview": "Aura Regenerative Center is a physician-led regenerative-medicine clinic on the 47th floor of an office tower in Monterrey, Nuevo León, Mexico, co-founded and medically directed by Dr. Fernando Hernández. Verified directly on the clinic's own site: it lists 'Autism & Neurodevelopmental Support' as a dedicated treated condition, but that page describes only generic 'regenerative protocols' targeting neuroinflammation and neuroplasticity, without naming a specific cell product, dose, session count, or price for autism. Its separate therapies catalog offers Dezawa-branded 'Dezawa Muse Cells'/'Dezawa Muse Exosome' products, allogeneic umbilical cord MSCs, exosome therapy, and NK-cell infusion, but does not state which is used for the autism protocol. The clinic's own site displays a COFEPRIS license number (24-TR-19-039-0003 — self-published, not independently confirmed against a public registry) but does not mention ISSCA membership anywhere on-site; that claim was found only on third-party medical-tourism listings (Bookimed/PlacidWay). MuseCell Innovations (MCI)'s own authorized-centers list does not name Aura Regenerative; Mexico access to authentic Dezawa MuseCells® is instead routed through a distributor network ('Regene Global'), so the clinic's MUSE-branding claim is unverified. No peer-reviewed publications, registered clinical trials, or autism-specific patient counts/pricing were found; the only public autism-relevant evidence is a single parent testimonial (via Bookimed) reporting improved receptive/expressive communication after treatment.",
     "location": {
       "country": "Mexico",
       "countryCode": "MX",
@@ -2271,7 +2271,7 @@
     "cellSource": "allogeneic",
     "humanCellsOnly": true,
     "offersFMT": false,
-    "regulatoryNotes": "Operates under a claimed COFEPRIS authorization (License No. 24-TR-19-039-0003 per Bookimed/PlacidWay listings); the license was not independently confirmed directly against a COFEPRIS public registry during research.",
+    "regulatoryNotes": "Operates under a COFEPRIS authorization (License No. 24-TR-19-039-0003) that the clinic publishes itself (site footer and llms.txt), not just on third-party listings; the number was not independently cross-checked against a public COFEPRIS registry during research.",
     "effectiveness": {
       "communication": { "score": 5, "confidence": "none", "source": "unknown", "notes": "Single parent testimonial (dated 2026-03-17 on Bookimed) reports improved receptive/expressive communication; no quantitative scale (CARS/ATEC) data published" },
       "socialSkills":  { "score": 0, "confidence": "none", "source": "unknown", "notes": "No published autism outcome data" },
@@ -2308,10 +2308,10 @@
     },
     "coa": {
       "level": "claimed",
-      "labCertifications": ["COFEPRIS License No. 24-TR-19-039-0003 (claimed)", "ISSCA Member (claimed)"],
+      "labCertifications": ["COFEPRIS License No. 24-TR-19-039-0003 (self-published by clinic)", "ISSCA Member (claimed only in third-party medical-tourism listings; not stated on the clinic's own site)"],
       "patientDocuments": ["Certificate of Analysis (claimed, per clinic marketing)"],
       "independentlyVerified": false,
-      "notes": "Clinic and medical-tourism listings state COFEPRIS licensing and per-product Certificates of Analysis, but no independent registry lookup, GMP/ISO certificate number, or third-party lab audit was found during research."
+      "notes": "The COFEPRIS license number is published directly by the clinic itself (site footer, llms.txt) — a self-claim, not an independent registry confirmation. ISSCA membership appears only in third-party medical-tourism listings (Bookimed/PlacidWay). No GMP/ISO certificate number or third-party lab audit was found for Aura Regenerative specifically."
     },
     "gmpCertifiedLab": "claimed",
     "museCellClaim": {
