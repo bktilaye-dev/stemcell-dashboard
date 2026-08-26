@@ -2254,5 +2254,84 @@
       "phone": "+52-999-245-6260"
     },
     "dataLastVerified": "2026-08-24"
+  },
+  {
+    "id": "aura-regenerative-mexico",
+    "name": "Aura Regenerative Center",
+    "overview": "Aura Regenerative Center is a physician-led regenerative-medicine clinic on the 47th floor of an office tower in Monterrey, Nuevo León, Mexico, directed by Dr. Fernando Hernández Martínez. Alongside orthopedic, autoimmune, neurodegenerative, and anti-aging services, it markets a pediatric autism/ASD program using allogeneic umbilical cord-derived mesenchymal stem cells and Dezawa-branded 'MUSECells®'/'MuseExosome®' products. The clinic states it holds a Mexican COFEPRIS regulatory license (No. 24-TR-19-039-0003, per third-party medical-tourism listings) and ISSCA membership, with each cellular product accompanied by a Certificate of Analysis — but MuseCell Innovations (MCI)'s own authorized-centers list does not name Aura Regenerative directly; Mexico access to authentic Dezawa MuseCells® is instead routed through a distributor network ('Regene Global'), so the clinic's MUSE-branding claim is unverified pending direct confirmation. No peer-reviewed publications, registered clinical trials, or autism-specific patient counts/pricing were found during research; the only public autism-relevant evidence is a single parent testimonial (via the Bookimed medical-tourism platform) reporting improved receptive/expressive communication after treatment.",
+    "location": {
+      "country": "Mexico",
+      "countryCode": "MX",
+      "city": "Monterrey",
+      "address": "Miguel Hidalgo y Costilla 2404, Piso 47, Obispado, 64060 Monterrey, N.L., Mexico",
+      "coordinates": { "lat": 25.6866, "lng": -100.3161 }
+    },
+    "cellTypes": ["umbilical_cord_msc", "MUSE_dezawa", "exosomes"],
+    "deliveryRoutes": ["iv"],
+    "cellSource": "allogeneic",
+    "humanCellsOnly": true,
+    "offersFMT": false,
+    "regulatoryNotes": "Operates under a claimed COFEPRIS authorization (License No. 24-TR-19-039-0003 per Bookimed/PlacidWay listings); the license was not independently confirmed directly against a COFEPRIS public registry during research.",
+    "effectiveness": {
+      "communication": { "score": 5, "confidence": "none", "source": "unknown", "notes": "Single parent testimonial (dated 2026-03-17 on Bookimed) reports improved receptive/expressive communication; no quantitative scale (CARS/ATEC) data published" },
+      "socialSkills":  { "score": 0, "confidence": "none", "source": "unknown", "notes": "No published autism outcome data" },
+      "behavior":      { "score": 0, "confidence": "none", "source": "unknown", "notes": "No published autism outcome data" },
+      "selfCare":      { "score": 0, "confidence": "none", "source": "unknown", "notes": "No published autism outcome data" }
+    },
+    "evidence": {
+      "gradeLevel": "very_low",
+      "studyDesign": "anecdotal",
+      "publications": [],
+      "clinicalTrials": []
+    },
+    "testimonials": {
+      "aggregateRating": 0,
+      "totalReviews": 0,
+      "ratingBreakdown": { "5": 0, "4": 0, "3": 0, "2": 0, "1": 0 },
+      "featured": [
+        {
+          "rating": 5,
+          "text": "Immediately noticed favorable progress of my son, especially with his receptive and expressive communication.",
+          "date": "2026-03-17",
+          "verified": false,
+          "domainsImproved": ["communication"]
+        }
+      ],
+      "externalUrl": "https://us-uk.bookimed.com/clinic/aura-regenerative-center/"
+    },
+    "cost": {
+      "minUSD": 0,
+      "maxUSD": 0,
+      "includesAccommodation": false,
+      "sessionRange": { "min": 1, "max": 1 },
+      "notes": "No autism-specific pricing publicly disclosed; Bookimed lists the clinic's general (non-autism) stem cell/MUSE cell pricing at roughly $3,500–$10,500 (e.g. 'Dezawa MUSE Cell Therapy Premium' at $7,100), and autism packages reportedly include hotel, meals, and pediatrician/nutritionist/physician consultations, priced after individualized medical review."
+    },
+    "coa": {
+      "level": "claimed",
+      "labCertifications": ["COFEPRIS License No. 24-TR-19-039-0003 (claimed)", "ISSCA Member (claimed)"],
+      "patientDocuments": ["Certificate of Analysis (claimed, per clinic marketing)"],
+      "independentlyVerified": false,
+      "notes": "Clinic and medical-tourism listings state COFEPRIS licensing and per-product Certificates of Analysis, but no independent registry lookup, GMP/ISO certificate number, or third-party lab audit was found during research."
+    },
+    "gmpCertifiedLab": "claimed",
+    "museCellClaim": {
+      "status": "claim_unverified",
+      "licenseVerified": false,
+      "licensePartner": "Claimed: Dezawa MUSECells®/MuseExosome® branding",
+      "verificationSource": "https://musecellinnovations.com/locations/",
+      "notes": "Aura Regenerative markets Dezawa-branded MUSE cell and MUSE exosome products, but MuseCell Innovations (MCI)'s own authorized-centers listing does not name Aura Regenerative among its Florida/Texas/Utah/Tennessee/UAE/Thailand/Türkiye/Bahamas centers; for Mexico, MCI's site instead points to a distributor network ('Regene Global'). Whether Aura Regenerative sources authentic product through that distributor was not independently confirmed. No autism-specific MUSE cell trial exists from Aura Regenerative or MCI."
+    },
+    "patientsTotal": 0,
+    "autismPatientCount": 0,
+    "procedure": {
+      "method": "IV infusion of allogeneic umbilical cord-derived mesenchymal stem cells and/or Dezawa-branded MUSE Cell/MUSE Exosome products, individualized by the clinic's medical director; the pediatric autism program is paired with pediatrician, nutritionist, and physician consultations.",
+      "durationNotes": "Not publicly specified; medical-tourism packages describe multi-day stays with hotel and airport-hotel-clinic transfers, but exact autism-specific session count or schedule is not publicly detailed — confirm directly with the clinic."
+    },
+    "contact": {
+      "website": "https://auraregenerative.com",
+      "email": "contact@auraregenerative.com",
+      "phone": "+1-808-938-2435"
+    },
+    "dataLastVerified": "2026-08-26"
   }
 ]
