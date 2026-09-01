@@ -2402,5 +2402,186 @@
       "phone": "+52-33-2784-0019"
     },
     "dataLastVerified": "2026-08-31"
+  },
+  {
+    "id": "north-florida-stem-cells-usa",
+    "name": "North Florida Stem Cells",
+    "overview": "North Florida Stem Cells (also styled 'Stem Cells of North Florida') is a physician-led regenerative-medicine practice in Orange Park, Florida (metro Jacksonville), founded and medically directed by Dr. Eric Weiss, MD, FACS. Dr. Weiss is a board-certified plastic and reconstructive surgeon and U.S. Navy veteran (Duke University School of Medicine; general surgery at UCSF; plastic surgery at the University of Miami); he is not a neurologist, immunologist, or developmental pediatrician, and describes his interest in autism as personal, as the father of a son on the spectrum. The clinic offers a single intravenous infusion of allogeneic umbilical cord blood for autism (30-45 minutes, with optional ketamine and/or midazolam sedation for pediatric patients at no extra charge), and separately markets the same category of therapy for roughly fifteen unrelated conditions (Alzheimer's, Parkinson's, multiple sclerosis, cerebral palsy, stroke, traumatic brain injury, diabetes, anti-aging, osteoarthritis). Marketing claims include '>95% cell viability,' 'non-manipulated' cells from a 'trusted FDA-compliant facility,' more than 400 patients treated, and that Dr. Weiss 'performs research at Duke' - no registered clinical trial or peer-reviewed publication was found under his name, and the clinic's own site carries the Florida-mandated notice that the therapy is not approved by the FDA and is investigational. The clinic's own materials are internally inconsistent about the product (one page says cells are 'fresh and delivered directly'; another says they are 'shipped frozen on dry ice' and 'thawed and infused within minutes'), and its FAQ acknowledges transient hyperactivity or aggression for 2-12 weeks after infusion. There are no publications or registered trials of its own; the evidence base is patient testimonials - a 4.8-star aggregate across 63 reviews (Birdeye), plus written and video parent stories on the clinic's site describing gains in eye contact, receptive language, following directions, and food-texture tolerance, generally within days to a month, with no standardized outcome measure (CARS/ATEC) reported. Per the clinic, the umbilical cord blood is sourced from an outside laboratory; that supplier is reported to be Leo Corps, Inc. of California (see the 'leo-corps-lab-california' provider entry). That sourcing relationship is reported on the clinic's 'our lab' page but was not independently confirmed during research, and Leo Corps' own materials label its cellular products 'for research use only.' No autism-specific pricing is published.",
+    "location": {
+      "country": "USA",
+      "countryCode": "US",
+      "city": "Orange Park",
+      "address": "421 Kingsley Ave, Ste 200, Orange Park, FL 32073, USA",
+      "coordinates": { "lat": 30.1663, "lng": -81.7059 }
+    },
+    "cellTypes": ["umbilical_cord_blood"],
+    "deliveryRoutes": ["iv"],
+    "cellSource": "allogeneic",
+    "humanCellsOnly": true,
+    "offersFMT": false,
+    "regulatoryNotes": "The clinic's own website carries the Florida-mandated disclosure: 'This physician performs one or more stem cell therapies that have not yet been approved by the United States Food and Drug Administration.' The autism treatment is offered under the practice of medicine; no IND, IRB approval, or registered clinical trial was cited or found. Umbilical cord blood used this way is a 361 HCT/P, not an FDA-approved drug or biologic for autism.",
+    "effectiveness": {
+      "communication": { "score": 4, "confidence": "none", "source": "patient_survey", "notes": "Multiple on-site and Birdeye parent testimonials report gains in eye contact, receptive language and following directions within days to a month; no CARS/ATEC or other standardized measure published, no control group, no independent verification" },
+      "socialSkills":  { "score": 3, "confidence": "none", "source": "patient_survey", "notes": "Parent testimonials describe increased engagement and eye contact; anecdotal only, no quantitative data" },
+      "behavior":      { "score": 3, "confidence": "none", "source": "patient_survey", "notes": "Testimonials cite calmer/more engaged behavior; clinic's own FAQ also notes transient hyperactivity or aggression for 2-12 weeks post-infusion. No standardized behavioral scale reported" },
+      "selfCare":      { "score": 3, "confidence": "none", "source": "patient_survey", "notes": "Testimonials mention improved food-texture tolerance and feeding; anecdotal only" }
+    },
+    "evidence": {
+      "gradeLevel": "very_low",
+      "studyDesign": "anecdotal",
+      "publications": [],
+      "clinicalTrials": []
+    },
+    "testimonials": {
+      "aggregateRating": 4.8,
+      "totalReviews": 63,
+      "ratingBreakdown": { "5": 0, "4": 0, "3": 0, "2": 0, "1": 0 },
+      "featured": [
+        {
+          "rating": 5,
+          "text": "It's been almost a year since my son's stem cell treatment. He was diagnosed with level 3 autism at 2 years old and is nonverbal. He had huge feeding issues and texture aversions - the day after treatment he ate crab and started trying new foods.",
+          "date": "2025-12",
+          "verified": false,
+          "childAgeAtTreatment": 3,
+          "domainsImproved": ["selfCare", "behavior"]
+        },
+        {
+          "rating": 5,
+          "text": "We brought our 2.5-year-old nonverbal son, recently diagnosed with autism, to Dr. Weiss for a stem cell procedure. Within a month we saw huge improvements - better listening, eye contact, more engagement, and following simple directions.",
+          "date": "2025-12",
+          "verified": false,
+          "childAgeAtTreatment": 2,
+          "domainsImproved": ["communication", "socialSkills"]
+        },
+        {
+          "rating": 5,
+          "text": "Exceptional clinic. Dr. Weiss's innovative approach, especially in the treatment of autism, offers real hope. We felt cared for and supported throughout.",
+          "date": "2025-12",
+          "verified": false,
+          "domainsImproved": []
+        },
+        {
+          "rating": 5,
+          "text": "Dr. Weiss took the time to thoroughly explain the treatment and set realistic expectations. Compassionate and deeply knowledgeable - he gave us a real sense of hope.",
+          "date": "2025-12",
+          "verified": false,
+          "domainsImproved": []
+        },
+        {
+          "rating": 5,
+          "text": "Dr. Weiss and the team are empathetic and create a comforting environment. Many families have benefited from his expertise.",
+          "date": "2025-12",
+          "verified": false,
+          "domainsImproved": []
+        }
+      ],
+      "externalUrl": "https://reviews.birdeye.com/north-florida-stem-cells-169888755016188"
+    },
+    "cost": {
+      "minUSD": 0,
+      "maxUSD": 0,
+      "includesAccommodation": false,
+      "sessionRange": { "min": 1, "max": 2 },
+      "notes": "No autism-specific price is published on the clinic's site; prospective patients are quoted after consultation. Sedation (ketamine and/or midazolam) for pediatric patients is offered at no additional charge. The clinic states some patients benefit from a single infusion while others repeat over time."
+    },
+    "coa": {
+      "level": "claimed",
+      "labCertifications": [
+        "'Trusted FDA-compliant facility' (asserted by the clinic; the supplier/lab is not named on the clinic's publicly reachable pages - reported separately to be Leo Corps, Inc. of California, see 'leo-corps-lab-california')",
+        "'>95% cell viability' (clinic marketing claim; no sample Certificate of Analysis, lot number, or third-party audit published)"
+      ],
+      "patientDocuments": [],
+      "independentlyVerified": false,
+      "notes": "North Florida Stem Cells publishes no lot number, viability report, donor-screening documentation, or laboratory certificate number for the cord blood it infuses. It states the cells come from an outside FDA-compliant facility; that facility is reported (per the clinic's 'our lab' page and the request that prompted this entry) to be Leo Corps, Inc. of Aliso Viejo, California - see the 'leo-corps-lab-california' provider entry - but the relationship was not independently confirmed from Leo Corps' own materials, which name no clinic partners and label their cellular products 'for research use only.' Umbilical cord blood used for autism is a 361 HCT/P, not an FDA-approved product, and no independent GMP certification for the source lab was located."
+    },
+    "gmpCertifiedLab": "claimed",
+    "patientsTotal": 0,
+    "autismPatientCount": 0,
+    "yearsOperating": 4,
+    "procedure": {
+      "method": "Single outpatient intravenous infusion of thawed allogeneic umbilical cord blood over roughly 30-45 minutes. Optional ketamine and/or midazolam (Versed) sedation is offered for pediatric patients at no additional charge. The clinic states some patients benefit from one infusion while others repeat treatment over time. Cord blood is obtained from an external laboratory reported to be Leo Corps, Inc. of California ('leo-corps-lab-california'; relationship not independently confirmed).",
+      "durationDays": { "min": 1, "max": 1 },
+      "durationNotes": "Same-day outpatient visit; the clinic says improvements are often noticed within 10-14 days, and warns of possible transient hyperactivity or aggression for 2-12 weeks."
+    },
+    "contact": {
+      "website": "https://northfloridastemcells.com",
+      "phone": "+1-904-215-5800"
+    },
+    "dataLastVerified": "2026-09-01"
+  },
+  {
+    "id": "leo-corps-lab-california",
+    "name": "Leo Corps, Inc.",
+    "overview": "Leo Corps, Inc. is a California-registered biospecimen and biotechnology supply company - a stock corporation incorporated 2022-09-22, principal address 120 Vantis Dr, Suite 300, Aliso Viejo, CA 92656, officer of record Taba Enterprise Holdings LLC; its website also lists a Las Vegas, Nevada media/contact address. It is NOT a patient-treating clinic. Leo Corps markets 'human-derived cellular and acellular research products, specialized services, and consultative support,' including umbilical cord blood (Altogex), umbilical cord tissue / Wharton's jelly (CytoCord), extracellular vesicles / exosomes (ExCyte), mesenchymal stem cell products (Nexa Biologix), and bone-marrow, adipose, fibroblast and hematopoietic products; it also describes overseeing the set-up of collection and processing laboratories for medical-tourism, academic, hospital and private clients. Its own website explicitly states these products are 'for research use only' and 'not intended to diagnose, treat, cure or prevent any disease,' and it makes no reference anywhere to autism or neurodevelopmental conditions. The site claims ISO 9001:2015 and ANAB biobanking accreditation; a third-party summary additionally asserted CAP registration and ISBER endorsement, which were not found on Leo Corps' own site. No FDA establishment registration number, AABB accreditation, GMP certificate number, certifying body, or audit date is published, and no FDA warning letters, Form 483 observations, or enforcement actions against Leo Corps were found as of the verification date. This entry exists because North Florida Stem Cells (see 'north-florida-stem-cells-usa') is reported to source the umbilical cord blood it infuses into children for autism from Leo Corps; that supply relationship is reported on the clinic's 'our lab' page but was not independently confirmed from Leo Corps' own materials, which name no clinic partners. The central tension is that a company selling material labelled 'research use only' is reported to be the supply chain for a clinical autism infusion program.",
+    "location": {
+      "country": "USA",
+      "countryCode": "US",
+      "city": "Aliso Viejo",
+      "address": "120 Vantis Dr, Suite 300, Aliso Viejo, CA 92656, USA",
+      "coordinates": { "lat": 33.5769, "lng": -117.7256 }
+    },
+    "branches": [
+      {
+        "city": "Las Vegas",
+        "country": "USA",
+        "address": "4625 West Nevso Dr, Ste 2, Las Vegas, NV 89103, USA",
+        "note": "Media-inquiry / contact address listed on leocorps.org; not confirmed to be a production site"
+      }
+    ],
+    "cellTypes": ["umbilical_cord_blood", "umbilical_cord_msc", "exosomes"],
+    "deliveryRoutes": [],
+    "cellSource": "allogeneic",
+    "humanCellsOnly": true,
+    "offersFMT": false,
+    "regulatoryNotes": "Leo Corps' own website labels its cellular products 'for research use only' and 'not intended to diagnose, treat, cure or prevent any disease.' No FDA establishment registration number, IND, or clinical-use authorization was found. As a supplier rather than a treating clinic, its regulatory posture for human infusion could not be independently confirmed; use of research-use-only material in patient care would fall outside the product's stated intended use.",
+    "effectiveness": {
+      "communication": { "score": 0, "confidence": "none", "source": "unknown", "notes": "Leo Corps is a biospecimen supplier/manufacturer, not a direct-to-patient autism program; no outcome data of any kind exists under its own name" },
+      "socialSkills":  { "score": 0, "confidence": "none", "source": "unknown", "notes": "No direct-to-patient program; no outcome data" },
+      "behavior":      { "score": 0, "confidence": "none", "source": "unknown", "notes": "No direct-to-patient program; no outcome data" },
+      "selfCare":      { "score": 0, "confidence": "none", "source": "unknown", "notes": "No direct-to-patient program; no outcome data" }
+    },
+    "evidence": {
+      "gradeLevel": "very_low",
+      "studyDesign": "none",
+      "publications": [],
+      "clinicalTrials": []
+    },
+    "testimonials": {
+      "aggregateRating": 0,
+      "totalReviews": 0,
+      "ratingBreakdown": { "5": 0, "4": 0, "3": 0, "2": 0, "1": 0 },
+      "featured": []
+    },
+    "cost": {
+      "minUSD": 0,
+      "maxUSD": 0,
+      "includesAccommodation": false,
+      "sessionRange": { "min": 0, "max": 0 },
+      "notes": "Business-to-business biospecimen supplier; no patient-facing pricing. Product pricing is set for research buyers and is not published for clinical use. The cost of any treatment using Leo Corps material is set by the clinic administering it (e.g. North Florida Stem Cells)."
+    },
+    "coa": {
+      "level": "claimed",
+      "labCertifications": [
+        "ISO 9001:2015 (claimed on leocorps.org; no certificate number or certifying body published)",
+        "ANAB biobanking accreditation (claimed on leocorps.org)",
+        "CAP registration / ISBER endorsement (asserted in a third-party summary; not found on Leo Corps' own site)"
+      ],
+      "patientDocuments": [],
+      "independentlyVerified": false,
+      "notes": "All certifications are self-reported on the company's own website with no certificate numbers, certifying-body names, or audit dates. No FDA establishment registration, AABB accreditation, or third-party laboratory audit was located. Products are labelled 'research use only,' so a clinical Certificate of Analysis for human infusion is not part of the stated offering. No public FDA warning letters or Form 483s against Leo Corps were found as of the verification date."
+    },
+    "gmpCertifiedLab": "claimed",
+    "patientsTotal": 0,
+    "autismPatientCount": 0,
+    "yearsOperating": 3,
+    "procedure": {
+      "method": "Leo Corps manufactures and supplies human-derived cells, tissue, exosomes and reagents to research buyers and to clinics/laboratories whose set-up it helps oversee; it does not administer treatment to patients. It is reported to supply umbilical cord blood to North Florida Stem Cells ('north-florida-stem-cells-usa') for that clinic's autism infusion program - a relationship not confirmed by Leo Corps' own materials, which label the products 'research use only.'"
+    },
+    "contact": {
+      "website": "https://leocorps.org",
+      "email": "info@leocorps.org",
+      "phone": "+1-833-536-7183"
+    },
+    "dataLastVerified": "2026-09-01"
   }
 ]
