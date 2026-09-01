@@ -2319,7 +2319,7 @@
       "licenseVerified": false,
       "licensePartner": "Claimed: Dezawa MUSECells®/MuseExosome® branding",
       "verificationSource": "https://musecellinnovations.com/locations/",
-      "notes": "Aura Regenerative markets Dezawa-branded MUSE cell and MUSE exosome products, but MuseCell Innovations (MCI)'s own authorized-centers listing does not name Aura Regenerative among its Florida/Texas/Utah/Tennessee/UAE/Thailand/Türkiye/Bahamas centers; for Mexico, MCI's site instead points to a distributor network ('Regene Global'). Whether Aura Regenerative sources authentic product through that distributor was not independently confirmed. No autism-specific MUSE cell trial exists from Aura Regenerative or MCI."
+      "notes": "Aura Regenerative markets Dezawa-branded MUSE cell and MUSE exosome products, but MuseCell Innovations (MCI)'s own authorized-centers listing does not name Aura Regenerative among its Florida/Texas/Utah/Tennessee/UAE/Thailand/Türkiye/Bahamas centers; for Mexico, MCI's site instead points to a distributor network ('Regene Global', now independently researched — see the 'regene-global-mexico' provider entry). Whether Aura Regenerative specifically sources authentic product through that distributor was not independently confirmed, and Regene Global's own claimed GMP/ISO certifications were likewise found to be self-reported and unverified. No autism-specific MUSE cell trial exists from Aura Regenerative, Regene Global, or MCI."
     },
     "patientsTotal": 0,
     "autismPatientCount": 0,
@@ -2333,5 +2333,74 @@
       "phone": "+1-808-938-2435"
     },
     "dataLastVerified": "2026-08-26"
+  },
+  {
+    "id": "regene-global-mexico",
+    "name": "Regene Global",
+    "overview": "Regene Global is a Mexico-based biotechnology laboratory and distributor headquartered in Zapopan, Jalisco — it is NOT a direct patient-treating clinic. MuseCell Innovations (MCI)'s own authorized-locations page (musecellinnovations.com/locations/) names Mexico as a 'distributor network' and links directly to Regene Global's own distributor list (regeneglobal.com/lista-de-distribuidores/), making it the entity MCI itself designates as the Mexico channel for Dezawa MUSE Cells® — the same distributor referenced, but not resolved, in the Aura Regenerative Center entry's MUSE claim notes. Founded in 2017 as a small Guadalajara-area biologics distributor, it has grown to roughly 100 employees and now operates its own lab ('Regene Labs'), a cell bank, production lines for stem cells/exosomes/growth factors/scaffolds, and a clinician-training arm ('Regene Academy'). It supplies other clinics (e.g. Aura Regenerative) rather than treating patients under its own brand. Critically, Regene Global's own site never mentions autism or neurodevelopmental conditions anywhere — its product page only references generic 'enfermedades neurodegenerativas' (neurodegenerative diseases). Its marketing claims 'Estándares GMP y certificación ISO' and its own cell bank/lab, but publishes no certificate numbers, no certifying body, no audit date, and no COFEPRIS sanitary-establishment or Aviso de Funcionamiento number anywhere on-site or in public records — these are self-reported, unverified claims, not documented certifications.",
+    "location": {
+      "country": "Mexico",
+      "countryCode": "MX",
+      "city": "Zapopan",
+      "address": "Av. Lateral Periférico Norte No. 33, El Vigía, 45140 Zapopan, Jalisco, Mexico",
+      "coordinates": { "lat": 20.7311, "lng": -103.3522 }
+    },
+    "cellTypes": ["MUSE_dezawa", "exosomes"],
+    "deliveryRoutes": [],
+    "cellSource": "allogeneic",
+    "humanCellsOnly": true,
+    "offersFMT": false,
+    "regulatoryNotes": "No COFEPRIS sanitary-establishment license, 'Aviso de Funcionamiento,' or 'Aviso de Responsable Sanitario del Establecimiento de Salud con Disposición de Células Troncales' number was found published by Regene Global or in public COFEPRIS records during research. As a lab/distributor (rather than a treating clinic), its regulatory posture could not be independently confirmed from public sources.",
+    "effectiveness": {
+      "communication": { "score": 0, "confidence": "none", "source": "unknown", "notes": "Regene Global does not operate a direct-to-patient autism program; no autism outcome data of any kind (published or anecdotal) exists under its own brand" },
+      "socialSkills":  { "score": 0, "confidence": "none", "source": "unknown", "notes": "No direct-to-patient autism program; no outcome data" },
+      "behavior":      { "score": 0, "confidence": "none", "source": "unknown", "notes": "No direct-to-patient autism program; no outcome data" },
+      "selfCare":      { "score": 0, "confidence": "none", "source": "unknown", "notes": "No direct-to-patient autism program; no outcome data" }
+    },
+    "evidence": {
+      "gradeLevel": "very_low",
+      "studyDesign": "none",
+      "publications": [],
+      "clinicalTrials": []
+    },
+    "testimonials": {
+      "aggregateRating": 0,
+      "totalReviews": 0,
+      "ratingBreakdown": { "5": 0, "4": 0, "3": 0, "2": 0, "1": 0 },
+      "featured": []
+    },
+    "cost": {
+      "minUSD": 0,
+      "maxUSD": 0,
+      "includesAccommodation": false,
+      "sessionRange": { "min": 0, "max": 0 },
+      "notes": "Regene Global is a B2B manufacturer/distributor lab, not a consumer-facing treatment provider — it publishes no patient pricing. Pricing for MUSE-branded treatment is set by the individual clinics it supplies (e.g. Aura Regenerative)."
+    },
+    "coa": {
+      "level": "claimed",
+      "labCertifications": ["GMP standards (claimed on Regene Global's own site; no certificate number, certifying body, or audit date published)", "ISO certification (claimed on Regene Global's own site; specific ISO standard/number not published)"],
+      "patientDocuments": [],
+      "independentlyVerified": false,
+      "notes": "Regene Global's marketing references 'Estándares GMP y certificación ISO' and describes its own lab and cell bank, but no certificate numbers, certifying bodies, audit dates, or third-party accreditation (e.g. ISSCA) were found on-site or via public search. No independent lab audit or COFEPRIS establishment number was located. These remain self-reported claims only."
+    },
+    "gmpCertifiedLab": "claimed",
+    "museCellClaim": {
+      "status": "licensed",
+      "licenseVerified": true,
+      "licensePartner": "MuseCell Innovations (MCI) / Dezawa MuseCells®",
+      "verificationSource": "https://musecellinnovations.com/locations/",
+      "notes": "Verified directly on MCI's own authorized-locations page, which designates Mexico as a distributor network and links to Regene Global's own distributor list — a stronger corroboration than clinics (like Aura Regenerative) that merely claim Dezawa MUSE branding without appearing on MCI's site. This confirms MCI recognizes Regene Global as its Mexico distribution channel; it does NOT independently verify that Regene Global's actual manufactured product matches MCI's quality/authenticity standards, since no third-party audit of Regene Global's lab was found."
+    },
+    "patientsTotal": 0,
+    "autismPatientCount": 0,
+    "procedure": {
+      "method": "Regene Global manufactures and distributes Dezawa-branded MUSE Cell and related biologic products (exosomes, growth factors) to third-party clinics; it does not itself administer treatment to patients. Patients seeking treatment are referred to its authorized/distributor clinics."
+    },
+    "contact": {
+      "website": "https://regeneglobal.com",
+      "email": "contacto@regeneglobal.com",
+      "phone": "+52-33-2784-0019"
+    },
+    "dataLastVerified": "2026-08-31"
   }
 ]
